@@ -15,7 +15,7 @@ services:
       ETCD_LISTEN_PEER_URLS: http://0.0.0.0:2380
       ETCD_INITIAL_CLUSTER_TOKEN: etcd-cluster
       ETCD_INITIAL_ADVERTISE_PEER_URLS: http://10.0.0.1:2380
-      ETCD-INITIAL-CLUSTER: etcd-node-01=http://10.0.0.1:2380,etcd-node-02=http://10.0.0.2:2380,etcd-node-03=http://10.0.0.3:2380
+      ETCD_INITIAL_CLUSTER: etcd-node-01=http://10.0.0.1:2380,etcd-node-02=http://10.0.0.2:2380,etcd-node-03=http://10.0.0.3:2380
       ETCD_INITIAL_CLUSTER_STATE: new
     command:
       etcd
